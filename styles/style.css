@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Blogger;
+    src: url(fonts/Blogger_Sans-Medium.otf);
+}
+
+@font-face {
+    font-family: Blogger_bold;
+    src: url(fonts/Blogger_Sans-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Blogger';
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    font-family: 'Blogger_bold';
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    padding: 0 15%;
+}
+
+.navbar li {
+    font-size: 20px;
+    font-weight: 500;
+    width: 170px;
+    padding: 0 10px;
+}
+
+#about_me {
+    background-image: url(/img/background.jpg);
+    height: 89vh;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding: 0 5%;
+}
+
+.about_header {
+    padding-top: 15%;
+}
+
+#about_me img{
+    width: 500px;
+}
+
+.carousel-item img {
+    height: 800px;
+}
+
+.carousel {
+    width: 600px;
+    margin: auto;
+}
+
+#my_works {
+    height: 100vh;
+}
+
+#FAQ {
+    height: 100vh;
+}
+
+.FAQ_header {
+    padding-top: 20%;
+}
+
+.order {
+    height: 100vh;
+    background-image: url(/img/background.jpg);
+    background-attachment: fixed;
+    color: #ffffff;
+    padding: 0 5%;
+}
+
+.order h2 {
+    padding-top: 25%;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 500px;
+    }
+    
+    .carousel {
+        width: 400px;
+        margin: auto;
+    }
+}

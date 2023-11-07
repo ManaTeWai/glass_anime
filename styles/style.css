@@ -39,7 +39,7 @@ h1, h2, h3 {
 }
 
 #about_me {
-    background-image: url(/img/background.jpg);
+    background-image: url(.../img/background.jpg);
     height: 89vh;
     background-attachment: fixed;
     color: #ffffff;
@@ -77,7 +77,7 @@ h1, h2, h3 {
 
 .order {
     height: 100vh;
-    background-image: url(/img/background.jpg);
+    background-image: url(.../img/background.jpg);
     background-attachment: fixed;
     color: #ffffff;
     padding: 0 5%;

@@ -26,6 +26,10 @@ h1, h2, h3 {
     padding-top: 68px;
 }
 
+.about_header {
+    padding-bottom: 48px;
+}
+
 .navbar-brand img {
     width: 100px;
     height: 100px;
@@ -150,5 +154,9 @@ h1, h2, h3 {
 
     .title {
         font-size: 40px;
+    }
+
+    .about_header {
+        padding-bottom: 0;
     }
 }

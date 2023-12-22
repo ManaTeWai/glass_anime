@@ -147,4 +147,8 @@ h1, h2, h3 {
         width: 350px;
         margin: auto;
     }
+
+    .title {
+        font-size: 40px;
+    }
 }

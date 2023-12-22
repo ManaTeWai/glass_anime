@@ -52,6 +52,7 @@ h1, h2, h3 {
     height: 100vh;
     background-attachment: fixed;
     color: #ffffff;
+    padding: 0 5%;
 }
 
 #about_me img{
@@ -109,6 +110,9 @@ h1, h2, h3 {
     height: 50px;
     font-size: 25px;
     rotate: 180deg;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
 
 .order h2 {
@@ -145,6 +149,10 @@ h1, h2, h3 {
 
     .carousel-item img {
         height: 400px;
+    }
+
+    #about_me {
+        padding: 0;
     }
 
     .carousel {

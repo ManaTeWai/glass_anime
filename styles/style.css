@@ -22,6 +22,10 @@ h1, h2, h3 {
     font-family: 'Blogger_bold';
 }
 
+.cont {
+    padding-top: 68px;
+}
+
 .navbar-brand img {
     width: 100px;
     height: 100px;
@@ -44,11 +48,6 @@ h1, h2, h3 {
     height: 100vh;
     background-attachment: fixed;
     color: #ffffff;
-    padding: 0 5%;
-}
-
-.about_header {
-    padding-top: 15%;
 }
 
 #about_me img{
@@ -56,11 +55,11 @@ h1, h2, h3 {
 }
 
 .carousel-item img {
-    height: 800px;
+    height: 600px;
 }
 
 .carousel {
-    width: 600px;
+    width: 500px;
     margin: auto;
 }
 
@@ -74,15 +73,12 @@ h1, h2, h3 {
 }
 
 #my_works {
-    height: 100vh;
+    height: 95vh;
+    padding: 5% 0;
 }
 
 #FAQ {
     height: 100vh;
-}
-
-.FAQ_header {
-    padding-top: 20%;
 }
 
 .order {
@@ -92,7 +88,23 @@ h1, h2, h3 {
     color: #ffffff;
     padding: 0 5%;
     background-size: 100%;
-    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navig_link {
+    z-index: 5;
+}
+
+.navig_btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    rotate: 180deg;
 }
 
 .order h2 {
@@ -110,6 +122,29 @@ h1, h2, h3 {
     
     .carousel {
         width: 400px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #about_me img {
+        width: 70%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #order {
+        vertical-align: middle;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .carousel {
+        width: 350px;
         margin: auto;
     }
 }

@@ -62,16 +62,15 @@ h3 {
 }
 
 #about_me {
-    background-image: url(/img/background.jpg);
-    background-size: 100%;
+    background: url(/img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
     height: 100vh;
-    background-attachment: fixed;
     color: #ffffff;
     padding: 0 5%;
 }
 
 #about_me img {
-    width: 500px;
+    width: 300px;
 }
 
 .carousel-item img {
@@ -103,11 +102,10 @@ h3 {
 
 .order {
     height: 100vh;
-    background-image: url(/img/background.jpg);
-    background-attachment: fixed;
+    background: url(/img/background.jpg) no-repeat center center fixed;
     color: #ffffff;
     padding: 0 5%;
-    background-size: 100%;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;

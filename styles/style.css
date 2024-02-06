@@ -149,11 +149,7 @@ h3 {
 
 @media (max-width: 520px) {
     #about_me img {
-        width: 50%;
-    }
-
-    .logo {
-        width: 50%;
+        width: 40%;
     }
 
     .navbar {
